@@ -12,5 +12,6 @@ end
 
 def countdown_with_sleep(number)
   while number > 0 do 
-    sleep
+    sleep(1.second)
+    puts 
 end
